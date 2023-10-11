@@ -1,0 +1,5 @@
+task_type: "classification"
+num_classes: 10
+hubert:
+  kmeans: True
+  reduce: True
