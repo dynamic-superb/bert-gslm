@@ -35,6 +35,7 @@ conda activate prompt
 
 - TEST_DATA_DIR=/mnt/data/gslm-test-data
 - MODEL_DIR = The path to the download model
+- SAVE_DIR = The path to the inference result dir
 ```shell
 bash download_checkpoint.sh # Need to install gdown
 cp checkpoint_best.pt MODEL_DIR
