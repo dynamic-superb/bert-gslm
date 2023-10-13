@@ -8,16 +8,16 @@
 ```
 gslm-test-data
 ├── AccentClassification_AccentdbExtended
-│   ├── metadata.json
-│   ├── file1.wav
-│   ├── file2.wav
-│   ├── ...
+│   ├── dict.txt
+│   ├── test_done.txt
+│   ├── test_files.txt
+│   ├── test.txt
 └── BirdSoundDetection_Warblrb10k
-    ├── metadata.json
-    ├── file1.wav
-    ├── file2.wav
-    ├── ...
-    ...
+    ├── dict.txt
+    ├── test_done.txt
+    ├── test_files.txt
+    ├── test.txt
+    
 ```
 
 ## Install
