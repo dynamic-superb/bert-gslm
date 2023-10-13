@@ -1,7 +1,7 @@
 # pgrep -u stan python -d ' ' | xargs kill -9
 model_dir=$1
 save_dir=$2
-test_data_dir=/mnt/data/gslm-test-data
+test_data_dir=$3
 set -e
 for i in {1..4}
 do 

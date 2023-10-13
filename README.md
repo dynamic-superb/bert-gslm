@@ -2,22 +2,21 @@
 
 ## Download dataset
 
-- You can use `rsync` to copy datasets from server.
+- You can download the dataset in the releases.
+- The download dataset will looks like:
 
 ```
-Dataset
-├── big-superb-test-data-renamed
-│   ├── AccentClassification_AccentdbExtended
-│   ├── BirdSoundDetection_Warblrb10k
-│   ├── ChordClassification_AcousticGuitarAndPiano
+gslm-test-data
+├── AccentClassification_AccentdbExtended
+│   ├── metadata.json
+│   ├── file1.wav
+│   ├── file2.wav
 │   ├── ...
-└── big-superb-train-data-renamed
-    ├── DialogueActClassification_DailyTalk
-    ├── DialogueActPairing_DailyTalk
-    ├── DialogueEmotionClassification_DailyTalk
-    ├── EnhancementDetection_LibrittsTrainClean360Wham
-    ├── NoiseDetectionGaussian_VoxcelebMusan
-    ├── NoiseSNRLevelPredictionGaussian_VoxcelebMusan
+└── BirdSoundDetection_Warblrb10k
+    ├── metadata.json
+    ├── file1.wav
+    ├── file2.wav
+    ├── ...
     ...
 ```
 
@@ -28,12 +27,9 @@ conda env create -f environment.yaml
 conda activate prompt
 ```
 
-## Data Preparation
-```shell
-```
 ### Inference from a checkpoint
 
-- TEST_DATA_DIR=/mnt/data/gslm-test-data
+- TEST_DATA_DIR= The path to gslm-test-data
 - MODEL_DIR = The path to the download model
 - SAVE_DIR = The path to the inference result dir
 ```shell
