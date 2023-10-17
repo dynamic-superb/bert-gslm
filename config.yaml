@@ -1,0 +1,6 @@
+prompt_param_filter:
+  - "sep"
+  - "prompt"
+  - "verbalizer"
+  - "embed_tokens"
+  - "output_projection"
